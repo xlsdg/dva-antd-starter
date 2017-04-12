@@ -2,17 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'dva';
 
-import Main from '../components/layout/main';
-
 import styles from './page01.css';
 
 function Page01({location}) {
   return (
-    <Main location={location}>
-      <div className={styles.normal}>
-        Route Component: Page01
-      </div>
-    </Main>
+    <div className={styles.normal}>
+      Route Component: Page01
+    </div>
   );
 }
 
