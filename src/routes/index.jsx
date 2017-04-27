@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'dva';
 
-import styles from './index.css';
+import styles from './index.less';
 
 function Index({location}) {
   return (

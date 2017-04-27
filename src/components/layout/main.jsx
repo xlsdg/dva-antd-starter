@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Layout, BackTop} from 'antd';
 
-import Header from './header';
-import Footer from './footer';
+import Header from './header.jsx';
+import Footer from './footer.jsx';
 
 import styles from './main.less';
 
