@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 import {Menu, Icon} from 'antd';
 import {Link} from 'dva/router';
 
-import styles from './header.css';
+import styles from './header.less';
 
-function Header({location}) {
+function Header({
+  location
+}) {
   return (
     <header className={styles.normal}>
       <div className={styles.logo}>

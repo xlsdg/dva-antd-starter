@@ -5,9 +5,11 @@ import {Layout, BackTop} from 'antd';
 import Header from './header';
 import Footer from './footer';
 
-import styles from './main.css';
+import styles from './main.less';
 
-function Main({children, location}) {
+function Main({
+  children, location
+}) {
   return (
     <Layout className={styles.normal}>
       <Layout.Header className={styles.header}>
