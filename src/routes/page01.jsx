@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {connect} from 'dva';
+import {
+  connect
+} from 'dva';
 
 import styles from './page01.less';
 
-function Page01({location}) {
+function Page01({
+  location
+}) {
   return (
     <div className={styles.normal}>
       Route Component: Page01

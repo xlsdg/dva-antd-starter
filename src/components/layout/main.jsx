@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Layout, BackTop} from 'antd';
+import {
+  Layout, BackTop
+} from 'antd';
 
 import Header from './header.jsx';
 import Footer from './footer.jsx';

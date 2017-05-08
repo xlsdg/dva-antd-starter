@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Menu, Icon} from 'antd';
-import {Link} from 'dva/router';
+import {
+  Menu, Icon
+} from 'antd';
+import {
+  Link
+} from 'dva/router';
 
 import styles from './header.less';
 
