@@ -12,6 +12,11 @@ export default {
     }]
   ],
   env: {
+    production: {
+      define: {
+        __CDN__: ''
+      }
+    },
     development: {
       extraBabelPlugins: [
         'dva-hmr'
