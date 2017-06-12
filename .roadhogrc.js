@@ -3,7 +3,7 @@ export default {
   publicPath: '/dva-antd-starter/',
   disableCSSModules: false,
   autoprefixer: {
-    "browsers": [
+    browsers: [
       'last 7 versions',
       'Android >= 4.2',
       'iOS >= 6'
