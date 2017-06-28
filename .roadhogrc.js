@@ -1,6 +1,7 @@
 export default {
   entry: 'src/index.js',
-  publicPath: '/dva-antd-starter/',
+  multipage: true,
+  publicPath: '/',
   disableCSSModules: false,
   autoprefixer: {
     browsers: [
@@ -19,9 +20,7 @@ export default {
   ],
   env: {
     production: {
-      define: {
-        __CDN__: ''
-      }
+      publicPath: '/dva-antd-starter/'
     },
     development: {
       extraBabelPlugins: [
