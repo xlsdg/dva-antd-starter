@@ -1,7 +1,6 @@
 export default {
+  hash: true,
   entry: 'src/index.js',
-  multipage: true,
-  publicPath: '/',
   disableCSSModules: false,
   autoprefixer: {
     browsers: [
@@ -10,7 +9,6 @@ export default {
       'iOS >= 6'
     ]
   },
-  proxy: null,
   extraBabelPlugins: [
     'transform-runtime',
     ['import', {
@@ -20,9 +18,12 @@ export default {
   ],
   env: {
     production: {
+      multipage: true,
       publicPath: '/dva-antd-starter/'
     },
     development: {
+      multipage: false,
+      publicPath: '/',
       extraBabelPlugins: [
         'dva-hmr'
       ]
