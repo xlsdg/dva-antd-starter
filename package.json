@@ -6,7 +6,7 @@
     "start": "roadhog server"
   },
   "dependencies": {
-    "antd": "^2.12.6",
+    "antd": "^2.12.7",
     "axios": "^0.16.2",
     "babel-polyfill": "^6.26.0",
     "dva": "^1.2.1",
@@ -30,7 +30,7 @@
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-react": "^7.3.0",
     "expect": "^1.20.2",
     "redbox-react": "^1.5.0",
     "roadhog": "^1.1.2"
