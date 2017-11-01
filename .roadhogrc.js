@@ -2,6 +2,7 @@ export default {
   hash: true,
   entry: 'src/index.js',
   disableCSSModules: false,
+  ignoreMomentLocale: true,
   autoprefixer: {
     browsers: [
       'last 7 versions',

@@ -6,7 +6,8 @@ module.exports = function(config, env) {
       index: './src/index.js',
       common: ['react', 'react-dom']
     };
-    config.plugins.push(new Webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
+
+    // config.plugins.push(new Webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
   }
   return config;
 };
