@@ -1,4 +1,4 @@
-const Webpack = require('webpack');
+// const Webpack = require('webpack');
 
 module.exports = function(config, env) {
   if (env === 'production') {
