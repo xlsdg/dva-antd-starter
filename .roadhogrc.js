@@ -13,6 +13,7 @@ export default {
   extraBabelPlugins: [
     'transform-runtime',
     ['import', {
+      libraryDirectory: 'es',
       libraryName: 'antd',
       style: true
     }]
