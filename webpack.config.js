@@ -1,5 +1,3 @@
-// const Webpack = require('webpack');
-
 module.exports = function(config, env) {
   if (env === 'production') {
     config.entry = {
@@ -7,7 +5,6 @@ module.exports = function(config, env) {
       common: ['react', 'react-dom']
     };
 
-    // config.plugins.push(new Webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
   }
   return config;
 };
